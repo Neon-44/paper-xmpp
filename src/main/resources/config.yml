@@ -1,0 +1,7 @@
+xmpp:
+  host: "xmpp.domain.tld"
+  domain: "domain.tld"
+  username: "mc-bot"
+  password: "password"
+  muc_room: "your-muc@conference.example.com"
+  nickname: "mc-server"

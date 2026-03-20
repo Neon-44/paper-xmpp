@@ -1,0 +1,17 @@
+name: XmppBridge
+version: '${project.version}'
+main: dev.xmppbridge.ChatPlugin
+api-version: '1.21'
+description: Bridges Minecraft chat to an XMPP account
+authors: [ YourName ]
+
+commands:
+  xmpp:
+    description: XmppBridge management commands
+    usage: /xmpp <reconnect|status>
+    permission: xmppbridge.admin
+
+permissions:
+  xmppbridge.admin:
+    description: Allows use of /xmpp management commands
+    default: op
